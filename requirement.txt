@@ -1,0 +1,7 @@
+SpeechRecognition==3.10.4
+standard-aifc
+PyAudioWPatch
+flet==0.22.1
+pyttsx3==2.90
+wikipedia==1.4.0
+Pillow>=11.0.0
