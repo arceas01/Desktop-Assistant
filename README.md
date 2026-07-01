@@ -1,2 +1,6 @@
 # Desktop-Assistant
-AIRA Core UI is a responsive, dark-themed Python desktop assistant built using Flet. It features an always-on continuous voice pipeline that executes instant system actions—like launching tools or apps via protocol links—without needing a wake word. It includes a shortcut (Ctrl+Alt+A) and brand integration.
+This project is a modular, high-performance Windows desktop virtual assistant framework engineered using Python and the Flet UI framework. Dubbed AIRA Core UI, it combines a clean, dark-themed, responsive user interface with an intelligent background automation engine.
+
+A standout feature of the project is its always-on continuous listening pipeline, which operates via PyAudioWPatch and SpeechRecognition. By monitoring voice streams smoothly in the background, it completely eliminates the need for an unreliable wake word. Users can seamlessly issue spoken commands—such as "Open Notepad" or "Open WhatsApp"—and the engine captures, transcribes, and executes them instantly. It also integrates custom image branding (logo.jpg) directly into the status bar and supports an app-focused global hotkey (Ctrl + Alt + A) to manually force microphone capture.
+
+On the backend, the architecture optimizes system tasks like launching applications, querying local weather details, or playing media streams. It resolves deep Windows app-routing edge cases by using direct OS protocol hooks (like whatsapp://), ensuring instant, native desktop execution without interfering with browser shortcuts or falling back to the Windows File Manager.
